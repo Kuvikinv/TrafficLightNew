@@ -22,24 +22,32 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aA3-g7-jZl">
                                         <rect key="frame" x="0.0" y="0.0" width="169" height="169"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="aA3-g7-jZl" secondAttribute="height" multiplier="1:1" id="fRL-tJ-Wy7"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGX-7s-eM5">
                                         <rect key="frame" x="0.0" y="202" width="169" height="169"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="cGX-7s-eM5" secondAttribute="height" multiplier="1:1" id="eJu-19-Q8r"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Myh-MS-mK8">
                                         <rect key="frame" x="0.0" y="404" width="169" height="169"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Myh-MS-mK8" secondAttribute="height" multiplier="1:1" id="JJe-fM-VZT"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="cGX-7s-eM5" firstAttribute="height" secondItem="aA3-g7-jZl" secondAttribute="height" id="GC9-fI-5K3"/>
-                                    <constraint firstItem="Myh-MS-mK8" firstAttribute="height" secondItem="cGX-7s-eM5" secondAttribute="height" id="y3G-kj-r7u"/>
-                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXG-UT-kk1">
-                                <rect key="frame" x="103" y="673" width="169" height="60"/>
+                                <rect key="frame" x="103" y="711" width="169" height="42"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="I4y-bG-CdE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start">
@@ -54,13 +62,10 @@
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="t7y-ff-9Np" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="2M3-Yw-rRQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t7y-ff-9Np" secondAttribute="bottom" constant="150" id="Ii2-PK-ANu"/>
-                            <constraint firstItem="mXG-UT-kk1" firstAttribute="top" secondItem="t7y-ff-9Np" secondAttribute="bottom" constant="45" id="af4-T8-Q2E"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mXG-UT-kk1" secondAttribute="trailing" constant="103" id="ecq-dR-lTb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mXG-UT-kk1" secondAttribute="bottom" constant="45" id="fwk-lg-yjG"/>
-                            <constraint firstItem="t7y-ff-9Np" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="kTG-Fk-DkT"/>
-                            <constraint firstItem="mXG-UT-kk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="mKL-dX-iIj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t7y-ff-9Np" secondAttribute="trailing" constant="103" id="w34-ZM-UJG"/>
+                            <constraint firstItem="mXG-UT-kk1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5b3-M1-34w"/>
+                            <constraint firstItem="t7y-ff-9Np" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yhs-7X-Pge"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mXG-UT-kk1" secondAttribute="bottom" constant="25" id="fwk-lg-yjG"/>
+                            <constraint firstItem="t7y-ff-9Np" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.450667" id="ofw-Q5-c5e"/>
                         </constraints>
                     </view>
                     <connections>
